@@ -585,7 +585,7 @@ socket.on('connect', function() {
 
 	// Join a custom game and force start immediately.
 	// Custom games are a great way to test your bot while you develop it because you can play against your bot!
-	var custom_game_id = 'bobs_bot_game';
+	var custom_game_id = 'AJ2455';
 	socket.emit('join_private', custom_game_id, user_id);
     if (forceStart) {
 	   socket.emit('set_force_start', custom_game_id, true);
